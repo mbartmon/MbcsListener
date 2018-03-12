@@ -1,0 +1,3187 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MbcsCentral</name>
+    </assembly>
+    <members>
+        <member name="M:MbcsCentral.Accounts.delete">
+            <summary>
+            Deletes an account and all group and permission ties
+            </summary>
+            <param name="acctId">Account Id</param>
+            <returns>true, if successful</returns>
+        </member>
+        <member name="T:MbcsCentral.Email.frmChooseEmailAccount">
+            <summary>
+            Interaction logic for frmChooseEmailAccount.xaml
+            </summary>
+            <summary>
+            frmChooseEmailAccount
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.Email.frmChooseEmailAccount.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.Email.frmEmailAttachment">
+            <summary>
+            Interaction logic for frmEmailAttachment.xaml
+            </summary>
+            <summary>
+            frmEmailAttachment
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.Email.frmEmailAttachment.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.Email.frmSmtpConfigurator">
+            <summary>
+            Interaction logic for frmSmtpConfigurator.xaml
+            </summary>
+            <summary>
+            frmSmtpConfigurator
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.Email.frmSmtpConfigurator.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.Email.Utils.SaveEmail(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Boolean)">
+            <summary>
+            Saves a formatted email message as a text file
+            </summary>
+            <param name="FromEmail"></param>
+            <param name="DisplayName"></param>
+            <param name="ToEmail"></param>
+            <param name="Subject"></param>
+            <param name="message">Body of the message</param>
+            <param name="fileName">Full path to which to save</param>
+            <param name="ReturnReceipt">Was there a return receipt specified</param>
+            <returns>Null if successful otherwise error message</returns>
+        </member>
+        <member name="T:MbcsCentral.frmDatabaseScripts">
+            <summary>
+            Interaction logic for frmDatabaseScripts.xaml
+            </summary>
+            <summary>
+            frmDatabaseScripts
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.frmDatabaseScripts.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.Help.EmailAccountsConfiguration">
+            <summary>
+            Interaction logic for EmailAccountsConfiguration.xaml
+            </summary>
+            <summary>
+            EmailAccountsConfiguration
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.Help.EmailAccountsConfiguration.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.Help.EmailOverview">
+            <summary>
+            Interaction logic for EmailOverview.xaml
+            </summary>
+            <summary>
+            EmailOverview
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.Help.EmailOverview.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.Help.frmHelp">
+            <summary>
+            Interaction logic for frmHelp.xaml
+            </summary>
+            <summary>
+            frmHelp
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.Help.frmHelp.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.Help.Contents">
+            <summary>
+            Interaction logic for Contents.xaml
+            </summary>
+            <summary>
+            Contents
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.Help.Contents.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.Help.DocumentAquisition">
+            <summary>
+            Interaction logic for DocumentAquisition.xaml
+            </summary>
+            <summary>
+            DocumentAquisition
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.Help.DocumentAquisition.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.Help.DocumentOverview">
+            <summary>
+            Interaction logic for DocumentOverview.xaml
+            </summary>
+            <summary>
+            DocumentOverview
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.Help.DocumentOverview.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.Help.HelpMain">
+            <summary>
+            Interaction logic for HelpMain.xaml
+            </summary>
+            <summary>
+            HelpMain
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.Help.HelpMain.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.frmLogViewer">
+            <summary>
+            Interaction logic for frmLogViewer.xaml
+            </summary>
+            <summary>
+            frmLogViewer
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.frmLogViewer.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.frmReportDispatcher">
+            <summary>
+            Interaction logic for frmReportDistpatcher.xaml
+            </summary>
+            <summary>
+            frmReportDispatcher
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.frmReportDispatcher.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.frmReportList">
+            <summary>
+            Interaction logic for frmReportList.xaml
+            </summary>
+            <summary>
+            frmReportList
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.frmReportList.#ctor(System.String,System.Double,System.Double)">
+            <summary>
+            Report Displayer that provides a
+            mechanism to call a class
+            and pass a specified portion of
+            the double-clicked line.
+            <para/> 
+            EditClass is the FQN of the class to call.
+            <para/> 
+            IndexStart is the starting position of the double-clicked line to pass.
+            <para/> 
+            IndextLength is the length of the captured line to pass.
+            </summary>
+            <param name="fontName"></param>
+            <param name="fontSize"></param>
+        </member>
+        <member name="M:MbcsCentral.frmReportList.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.frmWait">
+            <summary>
+            Interaction logic for frmWait.xaml
+            </summary>
+            <summary>
+            frmWait
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.frmWait.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.frmMbcsCentralService">
+            <summary>
+            frmMbcsCentralService
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.frmMbcsCentralService.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.WinGL.frmCheckNumbers">
+            <summary>
+            Interaction logic for frmCheckNumbers.xaml
+            </summary>
+            <summary>
+            frmCheckNumbers
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.WinGL.frmCheckNumbers.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.WinGL.frmTransactionResearch">
+            <summary>
+            Interaction logic for frmTransactionResearch.xaml
+            </summary>
+            <summary>
+            frmTransactionResearch
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.WinGL.frmTransactionResearch.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.WinGL.frmVendorDupes">
+            <summary>
+            Interaction logic for frmVendorDupes.xaml
+            </summary>
+            <summary>
+            frmVendorDupes
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.WinGL.frmVendorDupes.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.WinGL.frmVendorSpreadsheet">
+            <summary>
+            Interaction logic for frmVendorSpreadsheet.xaml
+            </summary>
+            <summary>
+            frmVendorSpreadsheet
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.WinGL.frmVendorSpreadsheet.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.WinGL.frmDisbursementReport">
+            <summary>
+            Interaction logic for frmDisbursementReport.xaml
+            </summary>
+            <summary>
+            frmDisbursementReport
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.WinGL.frmDisbursementReport.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.WinGL.frmARTrans">
+            <summary>
+            Interaction logic for frmARTrans.xaml
+            </summary>
+            <summary>
+            frmARTrans
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.WinGL.frmARTrans.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.WinGL.Form1099.print_report">
+            ******************************************************************************
+        </member>
+        <member name="M:MbcsCentral.WinGL.Form1099.heading">
+            ******************************************************************************
+        </member>
+        <member name="M:MbcsCentral.WinGL.Form1099.VendorHeader">
+            ******************************************************************************
+        </member>
+        <member name="M:MbcsCentral.WinGL.Form1099.VendorTotal">
+            ******************************************************************************
+        </member>
+        <member name="M:MbcsCentral.WinGL.Form1099.DepartmentTotal">
+            ******************************************************************************
+        </member>
+        <member name="M:MbcsCentral.WinGL.Form1099.CompanyTotal">
+            ******************************************************************************
+        </member>
+        <member name="T:MbcsCentral.WinGL.frm1099Report">
+            <summary>
+            Interaction logic for frm1099Report.xaml
+            </summary>
+            <summary>
+            frm1099Report
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.WinGL.frm1099Report.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.WinGL.frmCloseYear">
+            <summary>
+            Interaction logic for frmCloseYear.xaml
+            </summary>
+            <summary>
+            frmCloseYear
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.WinGL.frmCloseYear.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.WinGL.frmPrReport">
+            <summary>
+            Interaction logic for frmPrReport.xaml
+            </summary>
+            <summary>
+            frmPrReport
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.WinGL.frmPrReport.FindChild``1(System.Windows.DependencyObject,System.String)">
+            <summary>
+            Finds a Child of a given item in the visual tree. 
+            </summary>
+            <param name="parent">A direct parent of the queried item.</param>
+            <typeparam name="T">The type of the queried item.</typeparam>
+            <param name="childName">x:Name or Name of child. </param>
+            <returns>The first parent item that matches the submitted type parameter. 
+            If not matching item can be found, 
+            a null parent is being returned.</returns>
+        </member>
+        <member name="M:MbcsCentral.WinGL.frmPrReport.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.WinGL.frmAccountBalances">
+            <summary>
+            Interaction logic for frmAccountBalances.xaml
+            </summary>
+            <summary>
+            frmAccountBalances
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.WinGL.frmAccountBalances.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.WinGL.frmBankReconciliation">
+            -------------------------------------------------------------------------------------------------
+             <summary>   Interaction logic for frmBankReconciliation.xaml. </summary>
+            
+             <remarks>   Mike, 2017-03-07. </remarks>
+            -------------------------------------------------------------------------------------------------
+            <summary>
+            frmBankReconciliation
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.WinGL.frmBankReconciliation.#ctor">
+            -------------------------------------------------------------------------------------------------
+             <summary>   Default constructor. </summary>
+            
+             <remarks>   Mike, 2017-03-07. </remarks>
+            -------------------------------------------------------------------------------------------------
+        </member>
+        <member name="M:MbcsCentral.WinGL.frmBankReconciliation.#ctor(System.String)">
+            -------------------------------------------------------------------------------------------------
+             <summary>   Constructor. </summary>
+            
+             <remarks>   Mike, 2017-03-07. </remarks>
+            
+             <param name="app">  The application. </param>
+            -------------------------------------------------------------------------------------------------
+        </member>
+        <member name="M:MbcsCentral.WinGL.frmBankReconciliation.frmBankReconciliation_Loaded(System.Object,System.Windows.RoutedEventArgs)">
+            -------------------------------------------------------------------------------------------------
+             <summary>   Event handler. Called by frmBankReconciliation for loaded events. </summary>
+            
+             <remarks>   Mike, 2017-03-07. </remarks>
+            
+             <param name="sender">   Source of the event. </param>
+             <param name="e">        Routed event information. </param>
+            -------------------------------------------------------------------------------------------------
+        </member>
+        <member name="M:MbcsCentral.WinGL.frmBankReconciliation.frmBankReconciliation_Closed(System.Object,System.EventArgs)">
+            -------------------------------------------------------------------------------------------------
+             <summary>   Event handler. Called by frmBankReconciliation for closed events. </summary>
+            
+             <remarks>   Mike, 2017-03-07. </remarks>
+            
+             <param name="sender">   Source of the event. </param>
+             <param name="e">        Event information. </param>
+            -------------------------------------------------------------------------------------------------
+        </member>
+        <member name="M:MbcsCentral.WinGL.frmBankReconciliation.cmdSave_Click(System.Object,System.Windows.RoutedEventArgs)">
+            -------------------------------------------------------------------------------------------------
+             <summary>   Event handler. Called by cmdSave for click events. </summary>
+            
+             <remarks>   Mike, 2017-03-07. </remarks>
+            
+             <param name="sender">   Source of the event. </param>
+             <param name="e">        Routed event information. </param>
+            -------------------------------------------------------------------------------------------------
+        </member>
+        <member name="M:MbcsCentral.WinGL.frmBankReconciliation.cmdClose_Click(System.Object,System.Windows.RoutedEventArgs)">
+            -------------------------------------------------------------------------------------------------
+             <summary>   Event handler. Called by cmdClose for click events. </summary>
+            
+             <remarks>   Mike, 2017-03-07. </remarks>
+            
+             <param name="sender">   Source of the event. </param>
+             <param name="e">        Routed event information. </param>
+            -------------------------------------------------------------------------------------------------
+        </member>
+        <member name="M:MbcsCentral.WinGL.frmBankReconciliation.cmdDelete_Click(System.Object,System.Windows.RoutedEventArgs)">
+            -------------------------------------------------------------------------------------------------
+             <summary>   Event handler. Called by cmdDelete for click events. </summary>
+            
+             <remarks>   Mike, 2017-03-07. </remarks>
+            
+             <param name="sender">   Source of the event. </param>
+             <param name="e">        Routed event information. </param>
+            -------------------------------------------------------------------------------------------------
+        </member>
+        <member name="M:MbcsCentral.WinGL.frmBankReconciliation.cmdRetrieve_Click(System.Object,System.Windows.RoutedEventArgs)">
+            -------------------------------------------------------------------------------------------------
+             <summary>   Event handler. Called by cmdRetrieve for click events. </summary>
+            
+             <remarks>   Mike, 2017-03-07. </remarks>
+            
+             <param name="sender">   Source of the event. </param>
+             <param name="e">        Routed event information. </param>
+            -------------------------------------------------------------------------------------------------
+        </member>
+        <member name="M:MbcsCentral.WinGL.frmBankReconciliation.get_BookBalance">
+            -------------------------------------------------------------------------------------------------
+             <summary>   Gets book balance. </summary>
+            
+             <remarks>   Mike, 2017-03-07. </remarks>
+            -------------------------------------------------------------------------------------------------
+        </member>
+        <member name="M:MbcsCentral.WinGL.frmBankReconciliation.get_CheckData">
+            -------------------------------------------------------------------------------------------------
+             <summary>   Gets check data. </summary>
+            
+             <remarks>   Mike, 2017-03-07. </remarks>
+            -------------------------------------------------------------------------------------------------
+        </member>
+        <member name="M:MbcsCentral.WinGL.frmBankReconciliation.CalculateTotals">
+            -------------------------------------------------------------------------------------------------
+             <summary>   Calculates the totals. </summary>
+            
+             <remarks>   Mike, 2017-03-07. </remarks>
+            -------------------------------------------------------------------------------------------------
+        </member>
+        <member name="M:MbcsCentral.WinGL.frmBankReconciliation.lstCompanies_SelectionChanged(System.Object,System.Windows.Controls.SelectionChangedEventArgs)">
+            -------------------------------------------------------------------------------------------------
+             <summary>   Event handler. Called by lstCompanies for selection changed events. </summary>
+            
+             <remarks>   Mike, 2017-03-07. </remarks>
+            
+             <param name="sender">   Source of the event. </param>
+             <param name="e">        Selection changed event information. </param>
+            -------------------------------------------------------------------------------------------------
+        </member>
+        <member name="M:MbcsCentral.WinGL.frmBankReconciliation.cmdAddDeposit_Click(System.Object,System.Windows.RoutedEventArgs)">
+            -------------------------------------------------------------------------------------------------
+             <summary>   Event handler. Called by cmdAddDeposit for click events. </summary>
+            
+             <remarks>   Mike, 2017-03-07. </remarks>
+            
+             <param name="sender">   Source of the event. </param>
+             <param name="e">        Routed event information. </param>
+            -------------------------------------------------------------------------------------------------
+        </member>
+        <member name="M:MbcsCentral.WinGL.frmBankReconciliation.cmdBankErrorAgainst_Click(System.Object,System.Windows.RoutedEventArgs)">
+            -------------------------------------------------------------------------------------------------
+             <summary>   Event handler. Called by cmdBankErrorAgainst for click events. </summary>
+            
+             <remarks>   Mike, 2017-03-07. </remarks>
+            
+             <param name="sender">   Source of the event. </param>
+             <param name="e">        Routed event information. </param>
+            -------------------------------------------------------------------------------------------------
+        </member>
+        <member name="M:MbcsCentral.WinGL.frmBankReconciliation.cmdAddDebit_Click(System.Object,System.Windows.RoutedEventArgs)">
+            -------------------------------------------------------------------------------------------------
+             <summary>   Event handler. Called by cmdAddDebit for click events. </summary>
+            
+             <remarks>   Mike, 2017-03-07. </remarks>
+            
+             <param name="sender">   Source of the event. </param>
+             <param name="e">        Routed event information. </param>
+            -------------------------------------------------------------------------------------------------
+        </member>
+        <member name="M:MbcsCentral.WinGL.frmBankReconciliation.cmdBankErrorFor_Click(System.Object,System.Windows.RoutedEventArgs)">
+            -------------------------------------------------------------------------------------------------
+             <summary>   Event handler. Called by cmdBankErrorFor for click events. </summary>
+            
+             <remarks>   Mike, 2017-03-07. </remarks>
+            
+             <param name="sender">   Source of the event. </param>
+             <param name="e">        Routed event information. </param>
+            -------------------------------------------------------------------------------------------------
+        </member>
+        <member name="M:MbcsCentral.WinGL.frmBankReconciliation.OnChecked(System.Object,System.Windows.RoutedEventArgs)">
+            -------------------------------------------------------------------------------------------------
+             <summary>   Raises the routed event. </summary>
+            
+             <remarks>   Mike, 2017-03-07. </remarks>
+            
+             <param name="sender">   Source of the event. </param>
+             <param name="e">        Event information to send to registered event handlers. </param>
+            -------------------------------------------------------------------------------------------------
+        </member>
+        <member name="M:MbcsCentral.WinGL.frmBankReconciliation.NumberEntry_TextChanged(System.Object,System.Windows.Controls.TextChangedEventArgs)">
+            -------------------------------------------------------------------------------------------------
+             <summary>   Event handler. Called by NumberEntry for text changed events. </summary>
+            
+             <remarks>   Mike, 2017-03-07. </remarks>
+            
+             <param name="sender">   Source of the event. </param>
+             <param name="e">        Text changed event information. </param>
+            -------------------------------------------------------------------------------------------------
+        </member>
+        <member name="M:MbcsCentral.WinGL.frmBankReconciliation.NumberEntry_LostFocus(System.Object,System.Windows.RoutedEventArgs)">
+            -------------------------------------------------------------------------------------------------
+             <summary>   Event handler. Called by NumberEntry for lost focus events. </summary>
+            
+             <remarks>   Mike, 2017-03-07. </remarks>
+            
+             <param name="sender">   Source of the event. </param>
+             <param name="e">        Routed event information. </param>
+            -------------------------------------------------------------------------------------------------
+        </member>
+        <member name="M:MbcsCentral.WinGL.frmBankReconciliation.CheckBox_Checked(System.Object,System.Windows.RoutedEventArgs)">
+            -------------------------------------------------------------------------------------------------
+             <summary>   Event handler. Called by CheckBox for checked events. </summary>
+            
+             <remarks>   Mike, 2017-03-07. </remarks>
+            
+             <param name="sender">   Source of the event. </param>
+             <param name="e">        Routed event information. </param>
+            -------------------------------------------------------------------------------------------------
+        </member>
+        <member name="M:MbcsCentral.WinGL.frmBankReconciliation.DataGridCell_PreviewMouseLeftButtonDown(System.Object,System.Windows.Input.MouseButtonEventArgs)">
+            -------------------------------------------------------------------------------------------------
+             <summary>
+                 Event handler. Called by DataGridCell for preview mouse left button down events.
+             </summary>
+            
+             <remarks>   Mike, 2017-03-07. </remarks>
+            
+             <param name="sender">   Source of the event. </param>
+             <param name="e">        Mouse button event information. </param>
+            -------------------------------------------------------------------------------------------------
+        </member>
+        <member name="M:MbcsCentral.WinGL.frmBankReconciliation.FindVisualParent``1(System.Windows.UIElement)">
+            -------------------------------------------------------------------------------------------------
+             <summary>   Finds the parent of this item. </summary>
+            
+             <remarks>   Mike, 2017-03-07. </remarks>
+            
+             <typeparam name="T">    Generic type parameter. </typeparam>
+             <param name="element">  The element. </param>
+            
+             <returns>   The found visual parent. </returns>
+            -------------------------------------------------------------------------------------------------
+        </member>
+        <member name="M:MbcsCentral.WinGL.frmBankReconciliation.ComboBox_SelectionChanged(System.Object,System.Windows.Controls.SelectionChangedEventArgs)">
+            -------------------------------------------------------------------------------------------------
+             <summary>   Event handler. Called by ComboBox for selection changed events. </summary>
+            
+             <remarks>   Mike, 2017-03-07. </remarks>
+            
+             <param name="sender">   Source of the event. </param>
+             <param name="e">        Selection changed event information. </param>
+            -------------------------------------------------------------------------------------------------
+        </member>
+        <member name="M:MbcsCentral.WinGL.frmBankReconciliation.dtDate_SelectedDateChanged(System.Object,System.Windows.Controls.SelectionChangedEventArgs)">
+            -------------------------------------------------------------------------------------------------
+             <summary>   Event handler. Called by dtDate for selected date changed events. </summary>
+            
+             <remarks>   Mike, 2017-03-07. </remarks>
+            
+             <param name="sender">   Source of the event. </param>
+             <param name="e">        Selection changed event information. </param>
+            -------------------------------------------------------------------------------------------------
+        </member>
+        <member name="M:MbcsCentral.WinGL.frmBankReconciliation.lstAccounts_LostFocus(System.Object,System.Windows.RoutedEventArgs)">
+            -------------------------------------------------------------------------------------------------
+             <summary>   Event handler. Called by lstAccounts for lost focus events. </summary>
+            
+             <remarks>   Mike, 2017-03-07. </remarks>
+            
+             <param name="sender">   Source of the event. </param>
+             <param name="e">        Routed event information. </param>
+            -------------------------------------------------------------------------------------------------
+        </member>
+        <member name="M:MbcsCentral.WinGL.frmBankReconciliation.Post_Recon">
+            -------------------------------------------------------------------------------------------------
+             <summary>   Posts the recon. </summary>
+            
+             <remarks>   Mike, 2017-03-07. </remarks>
+            
+             <returns>   True if it succeeds, false if it fails. </returns>
+            -------------------------------------------------------------------------------------------------
+        </member>
+        <member name="M:MbcsCentral.WinGL.frmBankReconciliation.Post_Budget">
+            -------------------------------------------------------------------------------------------------
+             <summary>   Posts the budget. </summary>
+            
+             <remarks>   Mike, 2017-03-07. </remarks>
+            -------------------------------------------------------------------------------------------------
+        </member>
+        <member name="M:MbcsCentral.WinGL.frmBankReconciliation.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.WinGL.Totals">
+            -------------------------------------------------------------------------------------------------
+             <summary>   A totals. </summary>
+            
+             <remarks>   Mike, 2017-03-07. </remarks>
+            -------------------------------------------------------------------------------------------------
+        </member>
+        <member name="T:MbcsCentral.WinGL.BankReconciliation">
+            -------------------------------------------------------------------------------------------------
+             <summary>   A bank reconciliation. </summary>
+            
+             <remarks>   Mike, 2017-03-07. </remarks>
+            -------------------------------------------------------------------------------------------------
+        </member>
+        <member name="T:MbcsCentral.WinGL.frmTrialBalance">
+            <summary>
+            Interaction logic for frmTrialBalance.xaml
+            </summary>
+            <summary>
+            frmTrialBalance
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.WinGL.frmTrialBalance.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.WinGL.frmBalanceSheet">
+            <summary>
+            Interaction logic for frmBalanceSheet.xaml
+            </summary>
+            <summary>
+            frmBalanceSheet
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.WinGL.frmBalanceSheet.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.WinGL.Accounts">
+            <summary>
+            General Ledger Account Class
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.WinGL.Accounts.#ctor">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.WinGL.Accounts.#ctor(System.Int16,System.Int32,System.Boolean,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            Constructor with arguments
+            </summary>
+            <param name="AccountNumber"></param>
+            <param name="Key"></param>
+            <param name="active"></param>
+            <param name="MajorCategory"></param>
+            <param name="MinorCategory"></param>
+            <param name="Description"></param>
+            <param name="CategoryPath"></param>
+            <param name="OldAccountNumber"></param>
+            <param name="OldSubNumber"></param>
+            <param name="OldCategory"></param>
+        </member>
+        <member name="M:MbcsCentral.WinGL.Accounts.fill(System.Data.DataRow)">
+            <summary>
+            Populates instantiated Account object from database
+            </summary>
+            <param name="dr">Datarow to parse</param>
+            <returns>Populated Account object</returns>
+        </member>
+        <member name="M:MbcsCentral.WinGL.Accounts.load(System.Int32)">
+            <summary>
+            Load from database
+            </summary>
+            <param name="m_Key">Record key to retrieve</param>
+            <returns>Account object</returns>
+        </member>
+        <member name="T:MbcsCentral.WinGL.frmInvoiceNumber">
+            <summary>
+            Interaction logic for frmInvoiceNumber.xaml
+            </summary>
+            <summary>
+            frmInvoiceNumber
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.WinGL.frmInvoiceNumber.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.WinGL.frmAccountRanges">
+            <summary>
+            Interaction logic for frmAccountRanges.xaml
+            </summary>
+            <summary>
+            frmAccountRanges
+            </summary>
+        </member>
+        <member name="P:MbcsCentral.WinGL.frmAccountRanges.AccountCategories">
+            <summary>
+            0=All
+            1=Assets
+            2=Liabilities
+            3=Equities
+            4=Income
+            5=Expenses
+            6=Assets,Expenses
+            7=Assets,Income
+            8=Assets,Equity
+            9=Liability,Expenses
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.WinGL.frmAccountRanges.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.WinGL.frmAPLaser">
+            <summary>
+            Interaction logic for frmAPLaser.xaml
+            </summary>
+            <summary>
+            frmAPLaser
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.WinGL.frmAPLaser.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.WinGL.frmBatchInvoices">
+            <summary>
+            frmBatchInvoices
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.WinGL.frmBatchInvoices.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.WinGL.frmBatchReports">
+            <summary>
+            Interaction logic for frmBatchReports.xaml
+            </summary>
+            <summary>
+            frmBatchReports
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.WinGL.frmBatchReports.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.WinGL.frmCheckRegisterEdit">
+            <summary>
+            Interaction logic for frmCheckRegisterEdit.xaml
+            </summary>
+            <summary>
+            frmCheckRegisterEdit
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.WinGL.frmCheckRegisterEdit.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.WinGL.frmCheckRegSelection">
+            <summary>
+            Interaction logic for frmCheckRegSelection.xaml
+            </summary>
+            <summary>
+            frmCheckRegSelection
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.WinGL.frmCheckRegSelection.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.WinGL.frmJournalDesign">
+            <summary>
+            Interaction logic for frmJournalDesign.xaml
+            </summary>
+            <summary>
+            frmJournalDesign
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.WinGL.frmJournalDesign.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.WinGL.frmJournalReport">
+            <summary>
+            Interaction logic for frmJournalReport.xaml
+            </summary>
+            <summary>
+            frmJournalReport
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.WinGL.frmJournalReport.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.WinGL.frmOperatingStatement">
+            <summary>
+            Interaction logic for frmOperatingStatement.xaml
+            </summary>
+            <summary>
+            frmOperatingStatement
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.WinGL.frmOperatingStatement.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.WinGL.frmOptions">
+            <summary>
+            Interaction logic for frmOptions.xaml
+            </summary>
+            <summary>
+            frmOptions
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.WinGL.frmOptions.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.WinGL.frmBatchJournalEdit">
+            <summary>
+            Interaction logic for frmBatchJournalEdit.xaml
+            </summary>
+            <summary>
+            frmBatchJournalEdit
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.WinGL.frmBatchJournalEdit.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.WinGL.frmCategoriesAccounts">
+            <summary>
+            Interaction logic for frmCategoriesAccounts.xaml
+            </summary>
+            <summary>
+            frmCategoriesAccounts
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.WinGL.frmCategoriesAccounts.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.WinGL.frmCompaniesDepartments">
+            <summary>
+            frmCompaniesDepartments
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.WinGL.frmCompaniesDepartments.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.WinGL.frmCompany">
+            <summary>
+            frmCompany
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.WinGL.frmCompany.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.WinGL.frmDepartment">
+            <summary>
+            frmDepartment
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.WinGL.frmDepartment.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.WinGL.frmGeneralLedger">
+            <summary>
+            Interaction logic for frmGeneralLedger.xaml
+            </summary>
+            <summary>
+            frmGeneralLedger
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.WinGL.frmGeneralLedger.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.WinGL.frmInvoice">
+            <summary>
+            Interaction logic for frmInvoice.xaml
+            </summary>
+            <summary>
+            frmInvoice
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.WinGL.frmInvoice.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.WinGL.frmInvoiceDistributions">
+            <summary>
+            Interaction logic for frmInvoiceDistributions.xaml
+            </summary>
+            <summary>
+            frmInvoiceDistributions
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.WinGL.frmInvoiceDistributions.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.WinGL.frmInvoiceList">
+            <summary>
+            Interaction logic for frmInvoiceList.xaml
+            </summary>
+            <summary>
+            frmInvoiceList
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.WinGL.frmInvoiceList.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.WinGL.frmInvoiceSelection">
+            <summary>
+            Interaction logic for frmInvoiceSelection.xaml
+            </summary>
+            <summary>
+            frmInvoiceSelection
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.WinGL.frmInvoiceSelection.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.WinGL.frmInvoiceSelectionReport">
+            <summary>
+            Interaction logic for frmInvoiceSelectionReport.xaml
+            </summary>
+            <summary>
+            frmInvoiceSelectionReport
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.WinGL.frmInvoiceSelectionReport.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.WinGL.frmInvoiceSelections">
+            <summary>
+            Interaction logic for frmInvoiceSelections.xaml
+            </summary>
+            <summary>
+            frmInvoiceSelections
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.WinGL.frmInvoiceSelections.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.WinGL.frmJournalNames">
+            <summary>
+            Interaction logic for frmJournalNames.xaml
+            </summary>
+            <summary>
+            frmJournalNames
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.WinGL.frmJournalNames.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.WinGL.frmLaserChk">
+            <summary>
+            Interaction logic for frmLaserChk.xaml
+            </summary>
+            <summary>
+            frmLaserChk
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.WinGL.frmLaserChk.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.WinGL.frmMemos">
+            <summary>
+            Interaction logic for frmMemos.xaml
+            </summary>
+            <summary>
+            frmMemos
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.WinGL.frmMemos.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.WinGL.frmMoveDepartment">
+            <summary>
+            frmMoveDepartment
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.WinGL.frmMoveDepartment.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.WinGL.frmPrintChecks">
+            <summary>
+            Interaction logic for frmPrintChecks.xaml
+            </summary>
+            <summary>
+            frmPrintChecks
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.WinGL.frmPrintChecks.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.WinGL.frmTransactionEntry">
+            <summary>
+            Interaction logic for frmTransactionEntry.xaml
+            </summary>
+            <summary>
+            frmTransactionEntry
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.WinGL.frmTransactionEntry.SetGrid(System.Windows.Controls.Grid,MbcsCentral.WinGL.Transactiontemp[])">
+            <summary>
+            Create the payment grid with all charges and their amounts due
+            </summary>
+            <param name="grd">The grid object</param>
+            <param name="transactions">Array of payment entry objects that contains the charges</param>
+        </member>
+        <member name="M:MbcsCentral.WinGL.frmTransactionEntry.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.WinGL.frmVendorAllocations">
+            <summary>
+            Interaction logic for frmVendorAllocations.xaml
+            </summary>
+            <summary>
+            frmVendorAllocations
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.WinGL.frmVendorAllocations.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.WinGL.frmVendors">
+            <summary>
+            Interaction logic for frmVendors.xaml
+            </summary>
+            <summary>
+            frmVendors
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.WinGL.frmVendors.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.WinGL.frmAPTrans">
+            <summary>
+            Interaction logic for frmAPTrans.xaml
+            </summary>
+            <summary>
+            frmAPTrans
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.WinGL.frmAPTrans.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.WinGL.frmTransactionEdit">
+            <summary>
+            Interaction logic for frmTransactionEdit.xaml
+            </summary>
+            <summary>
+            frmTransactionEdit
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.WinGL.frmTransactionEdit.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.WinGL.Transactions.AccountBalance(System.Int32,System.Int32,System.DateTime,System.DateTime,System.Int32)">
+            <summary>
+            Retrieves SUM of all amounts for a single account for a data range
+            </summary>
+            <param name="Company">The CompanyNumber for which to retrieve balance</param>
+            <param name="Account">The Account Key for which to retrieve balance</param>
+            <param name="StartDate">The start of the date range</param>
+            <param name="EndDate">The end of the date range</param>
+            <param name="Department">The DepartmentNumber for which to retrieve balance</param>
+            <returns>The decimal balance value</returns>
+        </member>
+        <member name="M:MbcsCentral.WinGL.Transactions.FindCurrentPriorTrans(MbcsCentral.WinGL.Category)">
+            <summary>
+            Given a category, drill down the chain to determine
+            if there are any transactions for the current or prior years.
+            </summary>
+            <param name="key">key for the highest level category to start checking.</param>
+            <returns>true = found transactions, false = no transactions found</returns>
+        </member>
+        <member name="M:MbcsCentral.WinGL.WinglGlobal.Post_Invoices(System.Boolean,System.Boolean)">
+            <summary>
+            This routine will interate through the Invoices table and post any invoice
+            with a non-zero check number and valid check date
+            
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.WinGL.WinglGlobal.Post_Invoice(System.Int32,System.Int16,System.Int32,System.Int32,System.String,MbcsCentral.WinGL.WinglGlobal.PostInvoice_type,System.Boolean,System.Boolean,System.Boolean)">
+            <summary>
+            Takes the InvoiceKey of one invoice and does all of the
+            posting: GL, Check Register, etc.
+            </summary>
+            <param name="inv"></param>
+            <param name="postflag"></param>
+            <param name="Batch"></param>
+            <param name="CashAcct"></param>
+            <param name="desc"></param>
+            <param name="Invoice"></param>
+            <param name="docOpen"></param>
+            <param name="scan"></param>
+            <returns>0 if good, -1 means no distribution records were found, and
+                      -2 means another error occured</returns>
+        </member>
+        <member name="T:MbcsCentral.WinPM.frmChargeCodesInternal">
+            <summary>
+            Interaction logic for frmChargeCodesInternal.xaml
+            </summary>
+            <summary>
+            frmChargeCodesInternal
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.WinPM.frmChargeCodesInternal.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.WinPM.frmNoticesEmail">
+            <summary>
+            Interaction logic for frmNoticesEmail.xaml
+            </summary>
+            <summary>
+            frmNoticesEmail
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.WinPM.frmNoticesEmail.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.WinPM.SpecialReports.frmRentRollMortgages">
+            <summary>
+            Interaction logic for frmRentRollMortgages.xaml
+            </summary>
+            <summary>
+            frmRentRollMortgages
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.WinPM.SpecialReports.frmRentRollMortgages.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.WinPM.WinpmGlobal.getTenants(System.Windows.Controls.ListBox@,System.Int16)">
+            <summary>
+            Retrieves all tenants and places in a System.Windows.Controls.ListBox
+            
+            Optionally sorts the list
+            </summary>
+            <param name="lst">ListBox to populate</param>
+            <param name="orderBy">Order list by (see remarks)</param>
+            <remarks>orderBy:
+            (0) Tenant name
+            (1) Building/Tenant numbers
+            (2) Building/Apartment</remarks>
+        </member>
+        <member name="T:MbcsCentral.WinPM.frmSecTrans">
+            <summary>
+            Interaction logic for frmSecTrans.xaml
+            </summary>
+            <summary>
+            frmSecTrans
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.WinPM.frmSecTrans.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.WinPM.frmSecurityCodes">
+            <summary>
+            Interaction logic for frmSecurityCodes.xaml
+            </summary>
+            <summary>
+            frmSecurityCodes
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.WinPM.frmSecurityCodes.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.WinPM.FormControl">
+            <summary>
+            Interaction logic for FormControl.xaml
+            </summary>
+            <summary>
+            FormControl
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.WinPM.FormControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.WinPM.frmAddTenant">
+            <summary>
+            Interaction logic for frmAddTenant.xaml
+            </summary>
+            <summary>
+            frmAddTenant
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.WinPM.frmAddTenant.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.WinPM.frmTenantLabels">
+            <summary>
+            Interaction logic for frmTenantLabels.xaml
+            </summary>
+            <summary>
+            frmTenantLabels
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.WinPM.frmTenantLabels.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.WinPM.frmTypeCodes">
+            <summary>
+            Interaction logic for frmTypeCodes.xaml
+            </summary>
+            <summary>
+            frmTypeCodes
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.WinPM.frmTypeCodes.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.WinPM.frmNotices">
+            <summary>
+            Interaction logic for frmNotices.xaml
+            </summary>
+            <summary>
+            frmNotices
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.WinPM.frmNotices.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.WinPM.frmLeaseLetter">
+            <summary>
+            Interaction logic for frmLeaseLetter.xaml
+            </summary>
+            <summary>
+            frmLeaseLetter
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.WinPM.frmLeaseLetter.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.WinPM.frmPreferredRent">
+            <summary>
+            Interaction logic for frmPreferredRent.xaml
+            </summary>
+            <summary>
+            frmPreferredRent
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.WinPM.frmPreferredRent.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.WinPM.frmReportSelections">
+            <summary>
+            Interaction logic for frmReportSelections.xaml
+            </summary>
+            <summary>
+            frmReportSelections
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.WinPM.frmReportSelections.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.WinPM.frmTenantsOld">
+            <summary>
+            Interaction logic for frmTenantsOld.xaml
+            </summary>
+            <summary>
+            frmTenantsOld
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.WinPM.frmTenantsOld.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.WinPM.frmBatches">
+            <summary>
+            Interaction logic for frmBatches.xaml
+            </summary>
+            <summary>
+            frmBatches
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.WinPM.frmBatches.cmdExport_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Export current tab contents to CSV file
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:MbcsCentral.WinPM.frmBatches.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.WinPM.frmChargeCodes">
+            <summary>
+            Interaction logic for frmChargeCodes.xaml
+            </summary>
+            <summary>
+            frmChargeCodes
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.WinPM.frmChargeCodes.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.WinPM.frmEOM">
+            <summary>
+            Interaction logic for frmEOM.xaml
+            </summary>
+            <summary>
+            frmEOM
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.WinPM.frmEOM.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.WinPM.frmPaymentDetails">
+            <summary>
+            Interaction logic for frmPaymentDetails.xaml
+            </summary>
+            <summary>
+            frmPaymentDetails
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.WinPM.frmPaymentDetails.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.WinPM.frmPaymentRegister">
+            <summary>
+            Interaction logic for frmPaymentRegister.xaml
+            </summary>
+            <summary>
+            frmPaymentRegister
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.WinPM.frmPaymentRegister.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.WinPM.frmStmtLaser">
+            <summary>
+            Interaction logic for frmStmtLaser.xaml
+            </summary>
+            <summary>
+            frmStmtLaser
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.WinPM.frmStmtLaser.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.WinPM.frmStmtMessages">
+            <summary>
+            Interaction logic for frmStmtMessages.xaml
+            </summary>
+            <summary>
+            frmStmtMessages
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.WinPM.frmStmtMessages.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.WinPM.PaymentRegister.#ctor(System.Boolean,System.Boolean)">
+            <summary>
+            Set printer as target for report
+            </summary>
+            <param name="printerTarget"></param>
+        </member>
+        <member name="T:MbcsCentral.WinPM.frmCharge">
+            <summary>
+            frmCharge
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.WinPM.frmCharge.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.WinPM.frmCharges">
+            <summary>
+            frmCharges
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.WinPM.frmCharges.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.WinPM.frmChooseTenant">
+            <summary>
+            frmChooseTenant
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.WinPM.frmChooseTenant.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.WinPM.frmHistoryDisplay">
+            <summary>
+            frmHistoryDisplay
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.WinPM.frmHistoryDisplay.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.WinPM.frmImprovementEdit">
+            <summary>
+            frmImprovementEdit
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.WinPM.frmImprovementEdit.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.WinPM.frmMaintenance">
+            <summary>
+            frmMaintenance
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.WinPM.frmMaintenance.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.WinPM.frmMaintenanceEdit">
+            <summary>
+            frmMaintenanceEdit
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.WinPM.frmMaintenanceEdit.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.WinPM.frmMoveBuilding">
+            <summary>
+            frmMoveBuilding
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.WinPM.frmMoveBuilding.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.WinPM.frmOwnersBuildings">
+            <summary>
+            frmOwnersBuildings
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.WinPM.frmOwnersBuildings.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.WinPM.frmPaymentEntry">
+            <summary>
+            Interaction logic for frmPaymentEntry.xaml
+            </summary>
+            <summary>
+            frmPaymentEntry
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.WinPM.frmPaymentEntry.SetGrid(System.Windows.Controls.Grid,MbcsCentral.WinPM.PaymentEntries[])">
+            <summary>
+            Create the payment grid with all charges and their amounts due
+            </summary>
+            <param name="grd">The grid object</param>
+            <param name="payments">Array of payment entry objects that contains the charges</param>
+        </member>
+        <member name="M:MbcsCentral.WinPM.frmPaymentEntry.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.WinPM.frmStatusReport">
+            <summary>
+            Interaction logic for frmStatusReport.xaml
+            </summary>
+            <summary>
+            frmStatusReport
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.WinPM.frmStatusReport.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.WinPM.frmTenant">
+            <summary>
+            frmTenant
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.WinPM.frmTenant.formTenant_ContentRendered(System.Object,System.EventArgs)">
+            <summary>
+            This is used to avoid having tenant.IsChanged
+            to be true after initial display of tenant record.
+            Was happening due to some necessary date field manipulations
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:MbcsCentral.WinPM.frmTenant.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.WinPM.frmVacate">
+            <summary>
+            Interaction logic for frmVacate.xaml
+            </summary>
+            <summary>
+            frmVacate
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.WinPM.frmVacate.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.MessageBoxCustom">
+            <summary>
+            Custom message window.
+            Can be positioned at center of calling window.
+            Optionally accepts key board input.
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.MessageBoxCustom.Show(System.String,System.String,System.Windows.MessageBoxButton,System.Windows.Window)">
+            <summary>
+            Basic message box
+            </summary>
+            <param name="message"></param>
+            <param name="title"></param>
+            <param name="buttons"></param>
+            <param name="owner"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MbcsCentral.MessageBoxCustom.Show(System.String,System.String,System.Windows.Media.Brush,System.Windows.MessageBoxButton,System.Windows.Window)">
+            <summary>
+            Message box with optional background color
+            </summary>
+            <param name="message"></param>
+            <param name="title"></param>
+            <param name="Background"></param>
+            <param name="buttons"></param>
+            <param name="owner"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MbcsCentral.MessageBoxCustom.Show(System.String[],System.String,System.Windows.Media.Brush,System.Windows.MessageBoxButton,System.Windows.Window)">
+            <summary>
+            
+            </summary>
+            <param name="message"></param>
+            <param name="title"></param>
+            <param name="Background"></param>
+            <param name="buttons"></param>
+            <param name="owner"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MbcsCentral.MessageBoxCustom.Show(System.String,System.String@,System.Int32,System.Windows.Media.Brush,System.Windows.Window)">
+            <summary>
+            Allows for keyboard input
+            </summary>
+            <param name="title"></param>
+            <param name="value">Returned text value. MUST be declared as OUT.</param>
+            <param name="MaxLength">Maximum length of input</param>
+            <param name="Background"></param>
+            <returns></returns>
+        </member>
+        <member name="T:MbcsCentral.MessageBoxCustomWindow">
+            <summary>
+            Interaction logic for MessageBoxCustomWindow.xaml
+            </summary>
+            <summary>
+            MessageBoxCustomWindow
+            </summary>
+        </member>
+        <member name="P:MbcsCentral.MessageBoxCustomWindow.Result">
+            <summary>
+            On return, contains MessageBoxButton that user clicked on
+            </summary>
+        </member>
+        <member name="P:MbcsCentral.MessageBoxCustomWindow.Value">
+            <summary>
+            Text value returned by Input method
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.MessageBoxCustomWindow.#ctor(System.String,System.String,System.Windows.MessageBoxButton)">
+            <summary>
+            Basic message box
+            </summary>
+            <param name="message"></param>
+            <param name="title"></param>
+            <param name="buttons"></param>
+        </member>
+        <member name="M:MbcsCentral.MessageBoxCustomWindow.#ctor(System.String[],System.Windows.MessageBoxButton)">
+            <summary>
+            Accepts string array.
+            
+            Each array element is printed on separate line.
+            </summary>
+            <param name="message">String array</param>
+            <param name="buttons"></param>
+        </member>
+        <member name="M:MbcsCentral.MessageBoxCustomWindow.#ctor(System.String,System.Int32,System.Windows.MessageBoxButton)">
+            <summary>
+            For keyboard entry.
+            
+            Retrieve entered text value from Value public property after call
+            </summary>
+            <param name="title"></param>
+            <param name="buttons"></param>
+        </member>
+        <member name="M:MbcsCentral.MessageBoxCustomWindow.SetControls(System.Windows.MessageBoxButton)">
+            <summary>
+            Internal method to set the requested MessageBoxButtons
+            </summary>
+            <param name="buttons">MessageBoxButton enum</param>
+        </member>
+        <member name="M:MbcsCentral.MessageBoxCustomWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.WinTrm.frmRecipient">
+            <summary>
+            frmRecipient
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.WinTrm.frmRecipient.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.WinTrm.frmRecipientEdit">
+            <summary>
+            frmRecipientEdit
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.WinTrm.frmRecipientEdit.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.WinTrm.frmRecipientImports">
+            <summary>
+            frmRecipientImports
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.WinTrm.frmRecipientImports.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.WinTrm.frmRecipientMaster">
+            <summary>
+            frmRecipientMaster
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.WinTrm.frmRecipientMaster.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.WinTrm.frmRecipListSelect">
+            <summary>
+            frmRecipListSelect
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.WinTrm.frmRecipListSelect.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.WinTrm.Help">
+            <summary>
+            Help
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.WinTrm.Help.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.WinTrm.HelpMain">
+            <summary>
+            HelpMain
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.WinTrm.HelpMain.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.WinTrm.Utils.getTenants(System.Windows.Controls.TreeView)">
+            <summary>
+            Gets hierachical list of buildings with tenant email data
+            </summary>
+            <param name="lst">Treeview list object to populate</param>
+            <returns>True when successful</returns>
+            <remarks></remarks>
+        </member>
+        <member name="M:MbcsCentral.WinTrm.Utils.parseName(System.String)">
+            <summary>
+            Parses a full name string into first and last name
+            </summary>
+            <param name="fullName">The full name to parse</param>
+            <returns>A one or two element string array that contains:
+            1) A single element when there is only a single name in fullName
+            2) The first and middle names in element 0 and the last name in element 1</returns>
+            3) If the name ends with recognizable suffix then the first and middle names in element 0 and the last name and suffix in element 1
+            <remarks></remarks>
+        </member>
+        <member name="T:MbcsCentral.WinTrm.WaitWindow">
+            <summary>
+            WaitWindow
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.WinTrm.WaitWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.Classes.load(System.Object,System.Int32)">
+            <summary>
+            Load using object and optional acctid
+            </summary>
+            <param name="cls">Name of class</param>
+            <param name="acctId">Default to 0 for global class object</param>
+            <returns></returns>
+        </member>
+        <member name="M:MbcsCentral.Classes.loadMultiple(System.String,System.Int32)">
+            -------------------------------------------------------------------------------------------------
+             <summary>   Loads multiple classes with the same base name. </summary>
+            
+             <remarks>   Mike, 2017-03-12. </remarks>
+            
+             <param name="name">     The name. </param>
+             <param name="acctId">   (Optional)
+                                     Default to 0 for global class object. </param>
+            
+             <returns>   An array of classes. </returns>
+            -------------------------------------------------------------------------------------------------
+        </member>
+        <member name="T:MbcsCentral.frmDatabases">
+            <summary>
+            Interaction logic for frmDatabases.xaml
+            </summary>
+            <summary>
+            frmDatabases
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.frmDatabases.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.frmDatabasesEdit">
+            <summary>
+            Interaction logic for frmDatabasesEdit.xaml
+            </summary>
+            <summary>
+            frmDatabasesEdit
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.frmDatabasesEdit.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.MigrationWindow">
+            <summary>
+            Interaction logic for MainWindow.xaml
+            </summary>
+            <summary>
+            MigrationWindow
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.MigrationWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.docViewerControl">
+            <summary>
+            Interaction logic for docViewerControl.xaml
+            </summary>
+            <summary>
+            docViewerControl
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.docViewerControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.DragCanvas">
+            <summary>
+            A Canvas which manages dragging of the UIElements it contains.  
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.DragCanvas.#ctor">
+            <summary>
+            Initializes a new instance of DragCanvas.  UIElements in
+            the DragCanvas will immediately be draggable by the user.
+            </summary>
+        </member>
+        <member name="P:MbcsCentral.DragCanvas.AllowDragging">
+            <summary>
+            Gets/sets whether elements in the DragCanvas should be draggable by the user.
+            The default value is true.  This is a dependency property.
+            </summary>
+        </member>
+        <member name="P:MbcsCentral.DragCanvas.AllowDragOutOfView">
+            <summary>
+            Gets/sets whether the user should be able to drag elements in the DragCanvas out of
+            the viewable area.  The default value is false.  This is a dependency property.
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.DragCanvas.BringToFront(System.Windows.UIElement)">
+            <summary>
+            Assigns the element a z-index which will ensure that 
+            it is in front of every other element in the Canvas.
+            The z-index of every element whose z-index is between 
+            the element's old and new z-index will have its z-index 
+            decremented by one.
+            </summary>
+            <param name="targetElement">
+            The element to be sent to the front of the z-order.
+            </param>
+        </member>
+        <member name="M:MbcsCentral.DragCanvas.SendToBack(System.Windows.UIElement)">
+            <summary>
+            Assigns the element a z-index which will ensure that 
+            it is behind every other element in the Canvas.
+            The z-index of every element whose z-index is between 
+            the element's old and new z-index will have its z-index 
+            incremented by one.
+            </summary>
+            <param name="targetElement">
+            The element to be sent to the back of the z-order.
+            </param>
+        </member>
+        <member name="P:MbcsCentral.DragCanvas.ElementBeingDragged">
+            <summary>
+            Returns the UIElement currently being dragged, or null.
+            </summary>
+            <remarks>
+            Note to inheritors: This property exposes a protected 
+            setter which should be used to modify the drag element.
+            </remarks>
+        </member>
+        <member name="M:MbcsCentral.DragCanvas.FindCanvasChild(System.Windows.DependencyObject)">
+            <summary>
+            Walks up the visual tree starting with the specified DependencyObject, 
+            looking for a UIElement which is a child of the Canvas.  If a suitable 
+            element is not found, null is returned.  If the 'depObj' object is a 
+            UIElement in the Canvas's Children collection, it will be returned.
+            </summary>
+            <param name="depObj">
+            A DependencyObject from which the search begins.
+            </param>
+        </member>
+        <member name="M:MbcsCentral.DragCanvas.CalculateDragElementRect(System.Double,System.Double)">
+            <summary>
+            Returns a Rect which describes the bounds of the element being dragged.
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.DragCanvas.ResolveOffset(System.Double,System.Double,System.Boolean@)">
+            <summary>
+            Determines one component of a UIElement's location 
+            within a Canvas (either the horizontal or vertical offset).
+            </summary>
+            <param name="side1">
+            The value of an offset relative to a default side of the 
+            Canvas (i.e. top or left).
+            </param>
+            <param name="side2">
+            The value of the offset relative to the other side of the 
+            Canvas (i.e. bottom or right).
+            </param>
+            <param name="useSide1">
+            Will be set to true if the returned value should be used 
+            for the offset from the side represented by the 'side1' 
+            parameter.  Otherwise, it will be set to false.
+            </param>
+        </member>
+        <member name="M:MbcsCentral.DragCanvas.UpdateZOrder(System.Windows.UIElement,System.Boolean)">
+            <summary>
+            Helper method used by the BringToFront and SendToBack methods.
+            </summary>
+            <param name="element">
+            The element to bring to the front or send to the back.
+            </param>
+            <param name="bringToFront">
+            Pass true if calling from BringToFront, else false.
+            </param>
+        </member>
+        <member name="T:MbcsCentral.frmAccount">
+            <summary>
+            Interaction logic for frmAccount.xaml
+            </summary>
+            <summary>
+            frmAccount
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.frmAccount.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.frmAccountManagement">
+            <summary>
+            Interaction logic for frmAccountManagement.xaml
+            </summary>
+            <summary>
+            frmAccountManagement
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.frmAccountManagement.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.frmDatabaseBackup">
+            <summary>
+            Interaction logic for frmDatabaseBackup.xaml
+            </summary>
+            <summary>
+            frmDatabaseBackup
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.frmDatabaseBackup.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.frmDocumentAquire">
+            <summary>
+            Interaction logic for frmDocumentAquire.xaml
+            </summary>
+            <summary>
+            frmDocumentAquire
+            </summary>
+        </member>
+        <member name="F:MbcsCentral.frmDocumentAquire._cancelTransferBecauseFormIsClosing">
+            <summary>
+            Determines that image acquistion must be canceled because application's form is closing.
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.frmDocumentAquire.AcquireImagesSynchronously(System.String)">
+            <summary>
+            Acquire images synchronously.
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.frmDocumentAquire.SubscribeToDeviceEvents(Vintasoft.WpfTwain.Device)">
+            <summary>
+            Subscribe to the device events.
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.frmDocumentAquire.UnsubscribeFromDeviceEvents(Vintasoft.WpfTwain.Device)">
+            <summary>
+            Unsubscribe from the device events.
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.frmDocumentAquire.device_StateChanged(System.Object,Vintasoft.WpfTwain.DeviceStateChangedEventArgs)">
+            <summary>
+            Device state is changed.
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.frmDocumentAquire.device_ImageAcquiringProgress(System.Object,Vintasoft.WpfTwain.ImageAcquiringProgressEventArgs)">
+            <summary>
+            Image acquiring progress is changed.
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.frmDocumentAquire.device_ImageAcquired(System.Object,Vintasoft.WpfTwain.ImageAcquiredEventArgs)">
+            <summary>
+            Image is acquired.
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.frmDocumentAquire.device_ScanCompleted(System.Object,System.EventArgs)">
+            <summary>
+            Scan is completed.
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.frmDocumentAquire.device_ScanCanceled(System.Object,System.EventArgs)">
+            <summary>
+            Scan is canceled.
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.frmDocumentAquire.device_ScanFailed(System.Object,Vintasoft.WpfTwain.ScanFailedEventArgs)">
+            <summary>
+            Scan is failed.
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.frmDocumentAquire.device_UserInterfaceClosed(System.Object,System.EventArgs)">
+            <summary>
+            Device UI is closed.
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.frmDocumentAquire.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.frmDocumentLayout">
+            <summary>
+            Interaction logic for frmDocumentLayout.xaml
+            </summary>
+            <summary>
+            frmDocumentLayout
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.frmDocumentLayout.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.frmExternalApplications">
+            <summary>
+            Interaction logic for frmExternalApplications.xaml
+            </summary>
+            <summary>
+            frmExternalApplications
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.frmExternalApplications.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.frmGroup">
+            <summary>
+            Interaction logic for frmGroup.xaml
+            </summary>
+            <summary>
+            frmGroup
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.frmGroup.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.frmPrintDialog">
+            <summary>
+            Interaction logic for frmPrintDialog.xaml
+            </summary>
+            <summary>
+            frmPrintDialog
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.frmPrintDialog.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.frmProcedures">
+            <summary>
+            Interaction logic for frmProcedures.xaml
+            </summary>
+            <summary>
+            frmProcedures
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.frmProcedures.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.frmVerify">
+            <summary>
+            Interaction logic for frmVerify.xaml
+            </summary>
+            <summary>
+            frmVerify
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.frmVerify.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.MessageWindow">
+            <summary>
+            Interaction logic for MessageWindow.xaml
+            </summary>
+            <summary>
+            MessageWindow
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.MessageWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.MbcsCentralDataSet">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.MbcsCentralDataSet.ExternalApplicationsDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.MbcsCentralDataSet.ExternalApplicationsRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.MbcsCentralDataSet.ExternalApplicationsRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.MbcsCentralDataSetTableAdapters.ExternalApplicationsTableAdapter">
+             <summary>
+            Represents the connection and commands used to retrieve and save data.
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.MbcsCentralDataSetTableAdapters.TableAdapterManager">
+             <summary>
+            TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.MbcsCentralDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(MbcsCentral.MbcsCentralDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+             <summary>
+            Update rows in top-down order.
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.MbcsCentralDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(MbcsCentral.MbcsCentralDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+             <summary>
+            Insert rows in top-down order.
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.MbcsCentralDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(MbcsCentral.MbcsCentralDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+             <summary>
+            Delete rows in bottom-up order.
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.MbcsCentralDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+             <summary>
+            Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.MbcsCentralDataSetTableAdapters.TableAdapterManager.UpdateAll(MbcsCentral.MbcsCentralDataSet)">
+             <summary>
+            Update all changes to the dataset.
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.MbcsCentralDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+             <summary>
+            Update Order Option
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.MbcsCentralDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+             <summary>
+            Used to sort self-referenced table's rows
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.StringTrim">
+            <summary>
+            Returns passed string with Trim() applied
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.frmProgress">
+            <summary>
+            Interaction logic for frmProgress.xaml
+            </summary>
+            <summary>
+            frmProgress
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.frmProgress.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.frmConfiguration">
+            <summary>
+            Interaction logic for frmConfiguration.xaml
+            </summary>
+            <summary>
+            frmConfiguration
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.frmConfiguration.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="F:MbcsCentral.frmDbTransfer.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.frmDbTransfer.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:MbcsCentral.frmDbTransfer.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.frmLogin">
+            <summary>
+            Interaction logic for frmLogin.xaml
+            </summary>
+            <summary>
+            frmLogin
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.frmLogin.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.frmReport">
+            <summary>
+            frmReport
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.frmReport.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.frmReportViewer">
+            <summary>
+            Interaction logic for frmReportViewer.xaml
+            </summary>
+            <summary>
+            frmReportViewer
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.frmReportViewer.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.PrintDialogx">
+            <summary>
+            Replacement class for System.Windows.PrintDialog
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.PrintDialogx.VerifyPrintSettings">
+            <summary>
+            Ensure Queue and Ticket prepared
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.PrintDialogx.DefaultPrintQueue">
+            <summary>
+            PrintQueue
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MbcsCentral.PrintDialogx.DefaultPrintTicket">
+            <summary>
+            PrintTicket
+            </summary>
+            <param name="printQueue"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MbcsCentral.PrintDialogx.UpdateArea">
+            <summary>
+            Set Print Area
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.PrintDialogx.PrintDocument(System.Windows.Documents.DocumentPaginator,System.String)">
+            <summary>
+            Actually print an Xps Document with previously setup params
+            </summary>
+            <param name="paginator">Document to print</param>
+            <param name="description">Description</param>
+        </member>
+        <member name="M:MbcsCentral.PrintDialogx.ShowDialog(System.Windows.Window)">
+            <summary>
+            Show Dialog to allow user to adjust printer/settings
+            </summary>
+            <param name="window">Window owner</param>
+            <returns>True is user was ready to print</returns>
+        </member>
+        <member name="T:MbcsCentral.NativePrintDialog">
+            <summary>
+            Native Printing class wrapper. Calls Window's PrinatDlgEx
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.NativePrintDialog.ShowDialog(System.Windows.Window)">
+            <summary>
+            Show Dialog
+            </summary>
+            <param name="window"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MbcsCentral.NativePrintDialog.PrintDlgEx.#ctor(System.IntPtr,MbcsCentral.NativePrintDialog)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="owner">The Owner Handle we will attach to</param>
+            <param name="dialog"></param>
+        </member>
+        <member name="M:MbcsCentral.NativePrintDialog.PrintDlgEx.ShowPrintDlgEx">
+            <summary>
+            Show dialog and return result
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MbcsCentral.NativePrintDialog.PrintDlgEx.Finalize">
+            <summary>
+            Clean up
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.NativePrintDialog.PrintDlgEx.Is64Bits">
+            <summary>
+            Helper method to determine CPU mode
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MbcsCentral.NativePrintDialog.PrintDlgEx.AllocatePrintDlgExStruct">
+            <summary>
+            Allocate memory associated with PRINTDLGEX32 or PRINTDLGEX64 structures
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.NativePrintDialog.PrintDlgEx.DeallocatePrintDlgExStruct(System.IntPtr)">
+            <summary>
+            Frees memory associated with PRINTDLGEX32 or PRINTDLGEX64 structures
+            </summary>
+            <param name="ptr"></param>
+        </member>
+        <member name="M:MbcsCentral.NativePrintDialog.PrintDlgEx.FindPrintQueue(System.String)">
+            <summary>
+            Get the PrintQueue from the PrinterName
+            </summary>
+            <param name="printerName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MbcsCentral.NativePrintDialog.PrintDlgEx.FindPrintTicket(System.IntPtr,System.String)">
+            <summary>
+            Find the PrintTicket for the queue
+            </summary>
+            <param name="dModeHnd"></param>
+            <param name="printQueueName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MbcsCentral.NativePrintDialog.PrintDlgEx.InitializeDevMode(System.String,System.Printing.PrintTicket)">
+            <summary>
+            Creates DevMode structure from Ticket
+            </summary>
+            <param name="printerName"></param>
+            <param name="printTicket"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MbcsCentral.NativePrintDialog.PrintDlgEx.InitializeDevNames(System.String)">
+            <summary>
+            Set DevName structure memory
+            </summary>
+            <param name="printerName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MbcsCentral.NativePrintDialog.PrintDlgEx.GetResultPrintDlgExHnd(System.IntPtr)">
+            <summary>
+            Get dwResultAction from Dlg
+            </summary>
+            <param name="ptrPrintDlg"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MbcsCentral.NativePrintDialog.PrintDlgEx.GetSettings(System.IntPtr,System.String@,System.UInt32@,System.Windows.Controls.PageRange@,System.IntPtr@)">
+            <summary>
+            Get various settings
+            </summary>
+            <param name="nativeBuffer"></param>
+            <param name="printerName"></param>
+            <param name="flags"></param>
+            <param name="pageRange"></param>
+            <param name="dModeHnd"></param>
+        </member>
+        <member name="M:MbcsCentral.NativePrintDialog.PrintDlgEx.GetResult">
+            <summary>
+            Get's the result from the dialog
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:MbcsCentral.PageRangeDocumentPaginator">
+            Encapsulates a DocumentPaginator and allows
+            to paginate just some specific pages (a "PageRange")
+            of the encapsulated DocumentPaginator
+             (c) Thomas Claudius Huber 2010 
+                 http://www.thomasclaudiushuber.com
+            
+        </member>
+        <member name="T:MbcsCentral.NativeMethods">
+            <summary>
+            Wrap PInvoke calls  structs
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.ListItem.#ctor(System.String,System.Int64)">
+            -------------------------------------------------------------------------------------------------
+             <summary>   Constructor. </summary>
+            
+             <remarks>   Mike, 2017-03-14. </remarks>
+            
+             <param name="displayitem">  DisplayValuePath data. </param>
+             <param name="valueitem">    Used to store a record key. </param>
+            -------------------------------------------------------------------------------------------------
+        </member>
+        <member name="M:MbcsCentral.ListItem.#ctor(System.String,System.Int64,System.Object)">
+            -------------------------------------------------------------------------------------------------
+             <summary>   Constructor. </summary>
+            
+             <remarks>   Mike, 2017-03-14. </remarks>
+            
+             <param name="displayitem">  DisplayValuePath data. </param>
+             <param name="valueitem">    Used to store a record key. </param>
+             <param name="value">        The value. </param>
+            -------------------------------------------------------------------------------------------------
+        </member>
+        <member name="T:MbcsCentral.MainWindow">
+            <summary>
+            Interaction logic for MainWindow.xaml
+            </summary>
+            <summary>
+            MainWindow
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.MainWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.Report">
+            <summary>
+            This class does the work of creating a FixedDocment,
+            accepting text lines and controlling the building and
+            printing of pages.
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.Report.#ctor(System.Single)">
+            <summary>
+            No-parm constructor
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.Report.#ctor(System.String,System.Single)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="title">Report title for display</param>
+        </member>
+        <member name="M:MbcsCentral.Report.#ctor(System.String,System.String,System.Single,System.Single)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="title">Report display title</param>
+            <param name="fontName">String literal name of base system font</param>
+            <param name="fontSize">Size of base font in points</param>
+        </member>
+        <member name="M:MbcsCentral.Report.PrintHeader">
+            <summary>
+            Takes HeaderLines and places them in current page 
+            applying fonts, if present.
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.Report.PrintPageLine(System.String,System.Boolean)">
+            <summary>
+            Adds a line to the current fixed page
+            </summary>
+            <param name="line">The string contents to be added to current page</param>
+            <returns>true if maximum lines have been reached</returns>
+        </member>
+        <member name="M:MbcsCentral.Report.PrintPageLine(System.String,System.Drawing.Font,System.Boolean)">
+            <summary>
+            Adds a line to the current page applying a font
+            </summary>
+            <param name="line">The string contents to be added to current page</param>
+            <param name="fnt">A font object to be applied to the line</param>
+            <returns></returns>
+        </member>
+        <member name="M:MbcsCentral.Report.PrintPageLine(System.String,System.Double,System.Double,System.Drawing.Font,System.Boolean)">
+            <summary>
+            Adds a line of text at a precise position
+            </summary>
+            <param name="line">The string contents to be added to current page</param>
+            <param name="left">The horizontal position by line number</param>
+            <param name="top">The vertical position in characters</param>
+            <param name="fnt">A font object to be applied to the line</param>
+            <returns>Always true</returns>
+        </member>
+        <member name="M:MbcsCentral.Report.PrintPageLine(System.String,System.Double,System.Double)">
+            <summary>
+            Adds a line of text at a precise position
+            </summary>
+            <param name="line">The string contents to be added to current page</param>
+            <param name="left">The horizontal position in inches</param>
+            <param name="top">The vertical position in inches</param>
+            <returns>nothing</returns>
+        </member>
+        <member name="M:MbcsCentral.Report.PrintPageLine(System.String[],System.Boolean,System.Double)">
+            <summary>
+            Takes an array of string values that can, optionally, contain
+            tab values in the forms of "tab(n)" to precisely position the
+            next value in the array.
+            </summary>
+            <param name="lines"></param>
+            <returns>True if MaxPageHeight has been reached</returns>
+        </member>
+        <member name="M:MbcsCentral.Report.PrintPageLine(System.String[],System.Windows.Media.Brush,System.Boolean)">
+            <summary>
+            Takes an array of string values that can, optionally, contain
+            tab values in the forms of "tab(n)" to precisely position the
+            next value in the array.
+            </summary>
+            <param name="lines"></param>
+            <returns>True if MaxPageHeight has been reached</returns>
+        </member>
+        <member name="M:MbcsCentral.Report.PrintLine(System.Double,System.Double,System.Double,System.Double,System.Windows.Media.Brush,System.Boolean,System.Windows.Media.Brush)">
+            <summary>
+            Add a line or box graphic to the page
+            </summary>
+            <param name="x1">left starting position in characters</param>
+            <param name="y1">top starting position in characters</param>
+            <param name="x2">right ending position in characters</param>
+            <param name="y2">bottom ending position in characters</param>
+            <param name="lineColor">Color of lines</param>
+            <param name="box">if true, draws a rectangle</param>
+            <param name="fillColor">fill color of rectangle</param>
+        </member>
+        <member name="M:MbcsCentral.Report.PrintLineWithMargins(System.Double,System.Double,System.Double,System.Double,System.Windows.Media.Brush,System.Boolean,System.Windows.Media.Brush)">
+            <summary>
+            Add a line or box graphic to the page using margin properties
+            </summary>
+            <param name="x1">left starting position in characters</param>
+            <param name="y1">top starting position in characters</param>
+            <param name="x2">right ending position in characters</param>
+            <param name="y2">bottom ending position in characters</param>
+            <param name="lineColor">Color of lines</param>
+            <param name="box">if true, draws a rectangle</param>
+            <param name="fillColor">fill color of rectangle</param>
+        </member>
+        <member name="M:MbcsCentral.Report.PrintLine(System.Double,System.Double,System.Windows.Media.Brush,System.Boolean)">
+            <summary>
+            Add a line to the page at the CurrentHeight
+            then advance a line
+            </summary>
+            <param name="x1">left starting position in characters</param>
+            <param name="x2">right ending position in characters</param>
+            <param name="lineColor">Color of line</param>
+        </member>
+        <member name="M:MbcsCentral.Report.NewPage(System.Boolean,System.Boolean)">
+            <summary>
+            Adds the current page to the FixedDocument and
+            creates a new page.
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.Report.DisplayDocument(System.Boolean)">
+            <summary>
+            Uses the frmReport window to display the document
+            </summary>
+            <param name="DoNotDisplay">true to not call frmReport. Use DOCUMENT property to get the FixedDocument.</param>
+        </member>
+        <member name="M:MbcsCentral.Report.PrintDocument(System.Printing.PrintQueue)">
+            <summary>
+            Prints the document
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.Report.ConvertToXps(System.Windows.Documents.FixedDocument)">
+            <summary>
+            Converts FixedDocument to XPS
+            </summary>
+            <param name="doc">FixedDocument</param>
+            <returns>MemoryStream containing XPS document</returns>
+        </member>
+        <member name="M:MbcsCentral.Report.DocToPdf(System.String)">
+            <summary>
+            Creates specified pdf file from current document
+            </summary>
+            <param name="filename"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MbcsCentral.Report.DocToPdf(System.Windows.Documents.FixedDocument,System.String)">
+            <summary>
+            Creates specified pdf file from passed fixed document
+            </summary>
+            <param name="filename"></param>
+            <returns>true if successful</returns>
+        </member>
+        <member name="M:MbcsCentral.Report.SaveToPdf(System.IO.MemoryStream,System.String)">
+            <summary>
+            Saves an XPS MemoryStream to a PDF file
+            </summary>
+            <param name="ms">MemoryStream containing XPS document</param>
+            <param name="fileName"></param>
+            <returns></returns>
+        </member>
+        <member name="P:MbcsCentral.Report.CurrentHeight">
+            <summary>
+            The current page location
+            </summary>
+        </member>
+        <member name="P:MbcsCentral.Report.LineHeight">
+            <summary>
+            Height of each line in device indpendent units
+            </summary>
+        </member>
+        <member name="P:MbcsCentral.Report.LineHeightInches">
+            <summary>
+            Height of each line in inches
+            </summary>
+        </member>
+        <member name="P:MbcsCentral.Report.TopMargin">
+            <summary>
+            Top Margin in device independent units
+            </summary>
+        </member>
+        <member name="P:MbcsCentral.Report.TopMarginInches">
+            <summary>
+            Top Margin in inches
+            </summary>
+        </member>
+        <member name="P:MbcsCentral.Report.BottomMargin">
+            <summary>
+            Bottom Margin in device independent units
+            </summary>
+        </member>
+        <member name="P:MbcsCentral.Report.BottomOffset">
+            <summary>
+            If non-zero adjusts actual last print line
+            up (negative) or down(positive)
+            </summary>
+        </member>
+        <member name="P:MbcsCentral.Report.LeftMargin">
+            <summary>
+            Left Margin in device independent units
+            </summary>
+        </member>
+        <member name="P:MbcsCentral.Report.LeftMarginInches">
+            <summary>
+            Left Margin in inches
+            </summary>
+        </member>
+        <member name="P:MbcsCentral.Report.RightMargin">
+            <summary>
+            Right Margin in device independent units
+            </summary>
+        </member>
+        <member name="P:MbcsCentral.Report.PageOrientation">
+            <summary>
+            Page Orientation.
+            
+            0 = Portrait, 1 = Landscape
+            </summary>
+        </member>
+        <member name="P:MbcsCentral.Report.MaxPageHeight">
+            <summary>
+            Maximum height of a printed page in device independent units.
+            
+            Generally set internally
+            </summary>
+        </member>
+        <member name="P:MbcsCentral.Report.HeaderLines">
+            <summary>
+            Header lines to be used by PrintHeader method.
+            
+            Takes a two-dimensional object array:
+            Dimension 1 = header text
+            Dimension 2 - font to apply to that line, null to use base font
+            </summary>
+        </member>
+        <member name="P:MbcsCentral.Report.PageNumber">
+            <summary>
+            Current page number which can be specified in a print or header
+            line by using the PAGE_TAG of pg>
+            </summary>
+        </member>
+        <member name="P:MbcsCentral.Report.PageTag">
+            <summary>
+            Read Only.  Returns the PAGE_TAG
+            </summary>
+        </member>
+        <member name="P:MbcsCentral.Report.Document">
+            <summary>
+            Returns the FixedDocument produced by this class.
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.StartReport">
+             <summary>
+             <para>&#160;</para>
+             A class that facilitates the processing of background reports.
+             <para>&#160;</para>
+             Usage:
+             <para>&#160;</para>
+             The class for the report to be printed must inherit the abstract class: ReportBase<para/>
+             and contain a method as follows:<para/>
+             <example>public override void Process(){}</example><para/> 
+             that either kicks off the report processing or calls the method that does.
+             <para>&#160;</para>
+             The class or window that initiates the report first encapsulates any constructor<para/>
+             variables in an object array: <example> object[] parms = {arg1, arg2, arg3};</example>.<para/>
+             These must be the same type and in the same order as the report class' constructor<para/>
+             argument list.
+             <para>&#160;</para>
+             Then the initiating class/window makes the call: <code> StartReport.Start(reportClass, parms)</code><para/>
+             where 'reportClass' is the fully qualified report class such as:<para/> 
+             <example>StartReport.Start("MbcsCentral.WinPM.StatusReport", parms)</example>
+            
+             </summary>
+        </member>
+        <member name="M:MbcsCentral.StartReport.Start(System.String,System.Object)">
+            <summary>
+            Sets up variables for report, create report thread and start it
+            </summary>
+            <param name="rptClass">The full Namespace of the report object to process</param>
+            <param name="parms">Array of arguments that match a constructor in the report object</param>
+        </member>
+        <member name="M:MbcsCentral.StartReport.ReportThread(System.Object)">
+            <summary>
+            This is the entry point for the report thread
+            Notice that it instantiates the class for the report
+            and calls the abstract method Process which must, of course,
+            exist in the report class and be the starting method there.
+            </summary>
+            <param name="data">Array of arguments for the report object.
+            The first argument is the name of the report class to process.</param>
+        </member>
+        <member name="T:MbcsCentral.Startup">
+            <summary>
+            Interaction logic for Startup.xaml
+            </summary>
+            <summary>
+            Startup
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.Startup.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.WaitWindow">
+            <summary>
+            Interaction logic for WaitWindow.xaml
+            </summary>
+            <summary>
+            WaitWindow
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.WaitWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.frmBuilding">
+            <summary>
+            frmBuilding
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.frmBuilding.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.frmOwner">
+            <summary>
+            frmOwner
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.frmOwner.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.frmTenants">
+            <summary>
+            frmTenants
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.frmTenants.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.App">
+            <summary>
+            Interaction logic for App.xaml
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:MbcsCentral.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:MbcsCentral.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:MbcsCentral.Properties.Resources.ARW03DN">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:MbcsCentral.Properties.Resources.ARW03UP">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:MbcsCentral.Properties.Resources.ARW08LT">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:MbcsCentral.Properties.Resources.ARW08RT">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:MbcsCentral.Properties.Resources.ARW08RT1">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:MbcsCentral.Properties.Resources.ARW08RT2">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:MbcsCentral.Properties.Resources.LogoPicture">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:MbcsCentral.Properties.Resources.LogoPictureBox">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:MbcsCentral.Properties.Resources.String1">
+            <summary>
+              Looks up a localized string similar to &quot;Values&quot;.
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.Application">
+            <summary>
+            Application
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.Application.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.ControlPanel">
+            <summary>
+            ControlPanel
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.ControlPanel.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.frmMenuEdit">
+            <summary>
+            frmMenuEdit
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.frmMenuEdit.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:MbcsCentral.frmMenuFont">
+            <summary>
+            frmMenuFont
+            </summary>
+        </member>
+        <member name="M:MbcsCentral.frmMenuFont.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="M:ExtensionMethods.ExtensionMethods.Left(System.String,System.Int32)">
+            <summary>
+            Return left part of string
+            </summary>
+            <param name="str">string to parse</param>
+            <param name="number">Maximum number of characters</param>
+            <returns></returns>
+        </member>
+        <member name="M:ExtensionMethods.ExtensionMethods.Left(System.String,System.Int32,System.Int32)">
+            <summary>
+            Return left part of string with right padding
+            </summary>
+            <param name="str">string to parse</param>
+            <param name="number">Maximum number characters</param>
+            <param name="padding">Pad on right with n characters</param>
+            <returns></returns>
+        </member>
+        <member name="M:ExtensionMethods.ExtensionMethods.LeftPad(System.String,System.Int32,System.Int32)">
+            <summary>
+            Return left part of string with Left padding
+            </summary>
+            <param name="str">string to parse</param>
+            <param name="number">Maximum number characters</param>
+            <param name="padding">Pad on Left with n characters</param>
+            <returns></returns>
+        </member>
+        <member name="T:LogClass">
+            <summary>
+            Class for creating and writing an application log file
+            </summary>
+            <remarks></remarks>
+        </member>
+        <member name="T:LogClass.logType">
+            <summary>
+            Enumeration that provides log type names
+            </summary>
+            <remarks></remarks>
+        </member>
+        <member name="M:LogClass.Log(System.Int32,System.String,System.Boolean,System.Windows.Forms.MessageBoxButtons,System.String)">
+            <summary>
+            Method that writes log entry
+            </summary>
+            <param name="lType">Log Type</param>
+            <param name="message">Message string to write</param>
+            <param name="logOnly">Log only or also display message box</param>
+            <param name="buttons">For message box display, which buttons to use</param>
+            <param name="title">For message box display, title of window</param>
+            <returns>For message box display, which button was selected</returns>
+            <remarks></remarks>
+        </member>
+        <member name="P:LogClass.logFileName">
+            <summary>
+            Full path of logfile
+            </summary>
+            <value>Logfile path</value>
+            <returns>Logfile path</returns>
+            <remarks></remarks>
+        </member>
+        <member name="P:LogClass.logFileRef">
+            <summary>
+            Internal log file reference
+            </summary>
+            <value></value>
+            <returns>Log file reference</returns>
+            <remarks></remarks>
+        </member>
+        <member name="P:LogClass.debug">
+            <summary>
+            Sets or resets debug mode
+            </summary>
+            <value></value>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <member name="P:LogClass.maxFrames">
+            <summary>
+            Sets maximum number of stack frames to include in debu log entries
+            </summary>
+            <value>Maxium number of stack frames</value>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <member name="M:Main.getForm(System.Windows.Window)">
+            <summary>
+            Restore to its last postion and size
+            </summary>
+            <param name="frm">The window object to restore</param>
+        </member>
+        <member name="T:HelpFilters">
+            <summary>
+            HelpFilters
+            </summary>
+        </member>
+        <member name="M:HelpFilters.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:XamlGeneratedNamespace.GeneratedInternalTypeHelper">
+            <summary>
+            GeneratedInternalTypeHelper
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.CreateInstance(System.Type,System.Globalization.CultureInfo)">
+            <summary>
+            CreateInstance
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.GetPropertyValue(System.Reflection.PropertyInfo,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            GetPropertyValue
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.SetPropertyValue(System.Reflection.PropertyInfo,System.Object,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            SetPropertyValue
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.CreateDelegate(System.Type,System.Object,System.String)">
+            <summary>
+            CreateDelegate
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.AddEventHandler(System.Reflection.EventInfo,System.Object,System.Delegate)">
+            <summary>
+            AddEventHandler
+            </summary>
+        </member>
+    </members>
+</doc>

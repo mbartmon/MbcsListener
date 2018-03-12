@@ -1,0 +1,243 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+MBCSsmtp
+</name>
+</assembly>
+<members>
+<member name="T:MBCSsmtp.MbcsMail.MbcsMail">
+ <summary>
+ Helper class to make using the Email.NET library simpler in the
+ context of WinTRM
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:MBCSsmtp.MbcsMail.MbcsMail.pAuthentication">
+ <summary>
+ Deprecated
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:MBCSsmtp.MbcsMail.MbcsMail.#ctor">
+ <summary>
+ 
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:MBCSsmtp.MbcsMail.MbcsMail.#ctor(System.String)">
+ <param name="host">Fully qualified name of SMTP host</param>
+</member>
+<member name="M:MBCSsmtp.MbcsMail.MbcsMail.#ctor(System.String,System.Int32,System.Object,System.String)">
+ <param name="host">Fully qualified name of SMTP host</param>
+ <param name="port">Port number of SMTP host</param>
+ <param name="iType">Email.NET Interaction type</param>
+ <param name="password">User password for SMTP host</param>
+</member>
+<member name="M:MBCSsmtp.MbcsMail.MbcsMail.setMessage(System.String,System.String,System.String)">
+ <summary>
+ Creates an Email.NET SmtpMessage object and sets referenced fields
+ </summary>
+ <param name="fromAddr"></param>
+ <param name="toAddr"></param>
+ <param name="name"></param>
+ <returns>True if successful</returns>
+ <remarks></remarks>
+</member>
+<member name="M:MBCSsmtp.MbcsMail.MbcsMail.setMessage(System.String,System.String,System.String,System.String,System.String)">
+ <summary>
+     ''' Creates an Email.NET SmtpMessage object and sets referenced fields
+ </summary>
+ <param name="fromAddr">From email address</param>
+ <param name="toAddr">First To email address</param>
+ <param name="name">Name for To address</param>
+ <param name="subject">Subject of message</param>
+ <param name="body">Message contents</param>
+ <remarks></remarks>
+</member>
+<member name="M:MBCSsmtp.MbcsMail.MbcsMail.setAddTo(System.String,System.String)">
+ <summary>
+ Adds email address to toAddrs collection
+ </summary>
+ <param name="email">Email address to add</param>
+ <param name="name">Name for email address</param>
+ <remarks></remarks>
+</member>
+<member name="M:MBCSsmtp.MbcsMail.MbcsMail.setAddCC(System.String)">
+ <summary>
+ Adds email address to bccAddrs collection
+ </summary>
+ <param name="email">Email address to add</param>
+ <remarks></remarks>
+</member>
+<member name="M:MBCSsmtp.MbcsMail.MbcsMail.setMessageSubject(System.String)">
+ <summary>
+ Adds subject to email message
+ </summary>
+ <param name="subject">Subject to add</param>
+ <returns>True if successful</returns>
+ <remarks></remarks>
+</member>
+<member name="M:MBCSsmtp.MbcsMail.MbcsMail.setMessageBody(System.String)">
+ <summary>
+ Adds the body contents to an existing SmtpMessage object
+ </summary>
+ <param name="body">Text contents</param>
+ <returns>True if successful</returns>
+ <remarks></remarks>
+</member>
+<member name="M:MBCSsmtp.MbcsMail.MbcsMail.setHeader(System.String,System.String)">
+ <summary>
+ Adds a custom header to the extra headers collection
+ </summary>
+ <param name="headerTitle">Header title</param>
+ <param name="headerContent">Header Content</param>
+ <remarks></remarks>
+</member>
+<member name="M:MBCSsmtp.MbcsMail.MbcsMail.Send">
+ <summary>
+ Encapsulates the Chilkat.Mailman Send method
+ </summary>
+ <returns>Result as SendResult of operation</returns>
+ <remarks>
+ Sets up the authentication and interaction types, adds address collections to message object.
+ Then calls the parent class send method</remarks>
+</member>
+<member name="P:MBCSsmtp.MbcsMail.MbcsMail.emailAddress">
+ <summary>
+ Sets/Gets email address
+ </summary>
+ <value>email address</value>
+ <returns>email address</returns>
+ <remarks></remarks>
+</member>
+<member name="P:MBCSsmtp.MbcsMail.MbcsMail.incomingServer">
+ <summary>
+ Sets/Gets incoming pop server name
+ </summary>
+ <value>server name</value>
+ <returns>server name</returns>
+ <remarks></remarks>
+</member>
+<member name="P:MBCSsmtp.MbcsMail.MbcsMail.outgoingServer">
+ <summary>
+ Sets/Gets outgoing smtp server name
+ </summary>
+ <value>server name</value>
+ <returns>server name</returns>
+ <remarks></remarks>
+</member>
+<member name="P:MBCSsmtp.MbcsMail.MbcsMail.incomingPort">
+ <summary>
+ Sets/Gets incoming pop server port number
+ </summary>
+ <value>port number</value>
+ <returns>port number</returns>
+ <remarks></remarks>
+</member>
+<member name="P:MBCSsmtp.MbcsMail.MbcsMail.outgoingPort">
+ <summary>
+ Sets/Gets outgoing smtp port number
+ </summary>
+ <value>port number</value>
+ <returns>port number</returns>
+ <remarks></remarks>
+</member>
+<member name="P:MBCSsmtp.MbcsMail.MbcsMail.useSSL">
+ <summary>
+ Sets/Gets whether to use SSL
+ </summary>
+ <value>true/false</value>
+ <returns>true/false</returns>
+ <remarks></remarks>
+</member>
+<member name="P:MBCSsmtp.MbcsMail.MbcsMail.authentication">
+ <summary>
+ Sets/Gets authenication method
+ </summary>
+ <value>Authentication method</value>
+ <returns>Authentication method</returns>
+ <remarks>Deprecated</remarks>
+</member>
+<member name="P:MBCSsmtp.MbcsMail.MbcsMail.displayName">
+ <summary>
+ Sets/Gets display name of sender
+ </summary>
+ <value>name of sender</value>
+ <returns>name of sender</returns>
+ <remarks></remarks>
+</member>
+<member name="P:MBCSsmtp.MbcsMail.MbcsMail.fromAddress">
+ <summary>
+ Sets/Gets From address of email
+ </summary>
+ <value>From address</value>
+ <returns>From address</returns>
+ <remarks></remarks>
+</member>
+<member name="M:MBCSsmtp.MbcsMail.MbcsMail.setFromAddr(System.String,System.String)">
+ <summary>
+ Old style setter for From address
+ </summary>
+ <param name="email">From address</param>
+ <param name="name">From name</param>
+ <remarks></remarks>
+</member>
+<member name="M:MBCSsmtp.MbcsMail.MbcsMail.setToAddr(System.String,System.String)">
+ <summary>
+ Old style setter for To address
+ </summary>
+ <param name="email">To address</param>
+ <param name="name">To name</param>
+ <remarks></remarks>
+</member>
+<member name="P:MBCSsmtp.MbcsMail.MbcsMail.toAddr">
+ <summary>
+ Sets/Gets To address
+ </summary>
+ <value>To address</value>
+ <returns>To address</returns>
+ <remarks>Replaces To address if already set with new address</remarks>
+</member>
+<member name="P:MBCSsmtp.MbcsMail.MbcsMail.body">
+ <summary>
+ Sets/Gets message body text
+ </summary>
+ <value>body text</value>
+ <returns>body text</returns>
+ <remarks></remarks>
+</member>
+<member name="P:MBCSsmtp.MbcsMail.MbcsMail.subject">
+ <summary>
+ Sets/Gets message subject
+ </summary>
+ <value>message subject</value>
+ <returns>message subject</returns>
+ <remarks></remarks>
+</member>
+<member name="P:MBCSsmtp.MbcsMail.MbcsMail.Status">
+ <summary>
+ Gets readonly property Status
+ </summary>
+ <value>nothing</value>
+ <returns>Status</returns>
+ <remarks>Used for asynchronous sends which are not currently supported</remarks>
+</member>
+<member name="T:MBCSsmtp.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:MBCSsmtp.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:MBCSsmtp.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+</members>
+</doc>

@@ -1,0 +1,256 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+MbcsUtils
+</name>
+</assembly>
+<members>
+<member name="T:MbcsUtils.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:MbcsUtils.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:MbcsUtils.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:MbcsUtils.DictUtils">
+ <summary>
+ Static/Shared class for maintaining a configuration file
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:MbcsUtils.DictUtils.fileName">
+ <summary>
+ The full path (including file name) to the configuration file
+ </summary>
+ <value>Full path</value>
+ <returns>Configuration file path</returns>
+ <remarks></remarks>
+</member>
+<member name="P:MbcsUtils.DictUtils.Configs">
+ <summary>
+ The Dictionary in which to store the configurations
+ </summary>
+ <value>Dictionary(Of String, String)</value>
+ <returns>Internal Dictionary</returns>
+ <remarks></remarks>
+</member>
+<member name="T:MbcsUtils.DictUtils.Result">
+ <summary>
+ Enumeration of return codes
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:MbcsUtils.DictUtils.#ctor">
+ <summary>
+ Constructor
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:MbcsUtils.DictUtils.#ctor(System.String)">
+ <summary>
+ Constructor
+ </summary>
+ <param name="fileName">Full path to configuration file</param>
+ <remarks></remarks>
+</member>
+<member name="M:MbcsUtils.DictUtils.addItem(System.String)">
+ <summary>
+ Add a key/value pair
+ </summary>
+ <param name="itm">a comma separted string containing [key],[value]</param>
+ <remarks></remarks>
+</member>
+<member name="M:MbcsUtils.DictUtils.setItem(System.String,System.Object)">
+ <summary>
+ Add or replace a key/value pair
+ </summary>
+ <param name="key">Key to add or replace</param>
+ <param name="value">The new value</param>
+ <remarks></remarks>
+</member>
+<member name="M:MbcsUtils.DictUtils.setItem(System.String,System.String)">
+ <summary>
+ Add or replace a key/value pair
+ </summary>
+ <param name="key">Key to add or replace</param>
+ <param name="value">The new value</param>
+ <remarks></remarks>
+</member>
+<member name="M:MbcsUtils.DictUtils.setItem(System.String,System.Windows.Controls.CheckBox)">
+ <summary>
+ Add or replace a key/value pair
+ </summary>
+ <param name="key">Key to add or replace</param>
+ <param name="value">The new value</param>
+ <remarks></remarks>
+</member>
+<member name="M:MbcsUtils.DictUtils.getItem(System.String,System.Object@)">
+ <summary>
+ Retrieve an item by key
+ </summary>
+ <param name="key">The key to retrieve</param>
+ <param name="itm">The value that is retrieved as an object</param>
+ <remarks></remarks>
+</member>
+<member name="M:MbcsUtils.DictUtils.getItem(System.String,System.Windows.Controls.CheckBox@)">
+ <summary>
+ Retrieve a checkbox item by key
+ </summary>
+ <param name="key">The key to retrieve</param>
+ <param name="itm">Checkbox to modify</param>
+ <remarks></remarks>
+</member>
+<member name="M:MbcsUtils.DictUtils.getItem(System.String,System.String@)">
+ <summary>
+ Retrieve an item by key
+ </summary>
+ <param name="key">The key to retrieve</param>
+ <param name="itm">The value that is retrieved as a string</param>
+ <remarks></remarks>
+</member>
+<member name="M:MbcsUtils.DictUtils.getConfigs">
+ <summary>
+ Returns the entire configuration file
+ </summary>
+ <remarks>To avoid duplicate values you should pass an empty dictionary object</remarks>
+</member>
+<member name="M:MbcsUtils.DictUtils.setConfigs">
+ <summary>
+ Writes dictionary to configuration file
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:MbcsUtils.LogClass">
+ <summary>
+ Class for creating and writing an application log file
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:MbcsUtils.LogClass.logType">
+ <summary>
+ Enumeration that provides log type names
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:MbcsUtils.LogClass.#ctor(System.String,System.Boolean,System.String)">
+ <summary>
+ Constructor
+ </summary>
+ <param name="logFileName">Full path to log file</param>
+ <param name="debug">Sets global debug mode</param>
+ <param name="user">User name</param>
+ <remarks></remarks>
+</member>
+<member name="M:MbcsUtils.LogClass.Log(System.Int32,System.String,System.Boolean,Microsoft.VisualBasic.MsgBoxStyle,System.String,System.Boolean)">
+ <summary>
+ Method that writes log entry
+ </summary>
+ <param name="lType">Log Type</param>
+ <param name="message">Message string to write</param>
+ <param name="logOnly">Log only or also display message box</param>
+ <param name="buttons">For message box display, which buttons to use</param>
+ <param name="title">For message box display, title of window</param>
+ <returns>For message box display, which button was selected</returns>
+ <remarks></remarks>
+</member>
+<member name="M:MbcsUtils.LogClass.Log(System.Int32,System.String,System.Windows.Forms.MessageBoxButtons,System.String,System.Boolean)">
+ <summary>
+ Method that writes log entry
+ </summary>
+ <param name="lType">Log Type</param>
+ <param name="message">Message string to write</param>
+ <param name="buttons">For message box display, which buttons to use</param>
+ <param name="title">For message box display, title of window</param>
+ <returns>For message box display, which button was selected</returns>
+ <remarks></remarks>
+</member>
+<member name="P:MbcsUtils.LogClass.logFileName">
+ <summary>
+ Full path of logfile
+ </summary>
+ <value>Logfile path</value>
+ <returns>Logfile path</returns>
+ <remarks></remarks>
+</member>
+<member name="P:MbcsUtils.LogClass.logFileRef">
+ <summary>
+ Internal log file reference
+ </summary>
+ <value></value>
+ <returns>Log file reference</returns>
+ <remarks></remarks>
+</member>
+<member name="P:MbcsUtils.LogClass.Username">
+ <summary>
+ User Name
+ </summary>
+ <value></value>
+ <returns>User Name</returns>
+ <remarks></remarks>
+</member>
+<member name="P:MbcsUtils.LogClass.debug">
+ <summary>
+ Sets or resets debug mode
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:MbcsUtils.LogClass.maxFrames">
+ <summary>
+ Sets maximum number of stack frames to include in debu log entries
+ </summary>
+ <value>Maxium number of stack frames</value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:MbcsUtils.Parameters.GetDouble(System.String)">
+ <summary>
+ Returns a double parameter
+ </summary>
+ <param name="key">The key of the parameter to be retrieved</param>
+ <returns>A double value or 0 if not found</returns>
+ <remarks></remarks>
+</member>
+<member name="M:MbcsUtils.Parameters.GetInt(System.String)">
+ <summary>
+ Returns an Integer Parameter
+ </summary>
+ <param name="key"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:MbcsUtils.Parameters.getConfigs">
+ <summary>
+ Loads all parameters into internal dictionary
+ </summary>
+ <returns>Operation code</returns>
+ <remarks></remarks>
+</member>
+<member name="M:MbcsUtils.Parameters.setConfigs">
+ <summary>
+ Writes internal dictionary to parameter file
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:MbcsUtils.Parameters.GetDict">
+ <summary>
+ Retrieve internal dictionary
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+</members>
+</doc>
